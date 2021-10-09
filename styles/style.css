@@ -1,0 +1,147 @@
+body {
+    font-family: consolas;
+}
+
+.navme {
+    background-color: rgb(68, 2, 57);
+}
+
+header .navme a {
+    color: white;
+    font-weight: 700;
+}
+
+.landing {
+    background-color: rgb(68, 2, 57);
+    color: #fff;
+}
+
+.landing p {
+    font-size: 20px;
+}
+
+.landing a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.landing a:hover {
+    color: #fff;
+}
+
+.search {
+    background-color: transparent;
+    padding: 12px 15px;
+}
+
+.form-control {
+    background-color: transparent;
+}
+
+.plan {
+    margin-top: -200px;
+}
+
+.why img {
+    border-radius: 50%;
+    border: 1px solid pink;
+    width: 5em;
+    height: 5em;
+    margin: 0px auto;
+    padding-top: 2em;
+}
+
+.cardy {
+    box-shadow: 2px 2px gainsboro;
+    height: 26em;
+}
+
+.cardy:hover {
+    box-shadow: 4px 4px 4px 4px gainsboro;
+}
+
+.cardy a {
+    background-color: #fff;
+    border: 2px solid black;
+    color: black;
+}
+
+.cardy a:hover {
+    background-color: rgb(68, 2, 57);
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.testimony img {
+    width: 7em;
+    height: 7em;
+}
+
+.btns button {
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+}
+
+.btns button:hover {
+    background-color: rgb(68, 2, 57);
+    color: #fff;
+    border: none;
+}
+
+.support-text {
+    color: rgb(128, 4, 107);
+}
+
+.foot {
+    background-color: rgb(31, 30, 30);
+    color: #fff;
+}
+
+.foot button {
+    background-color: #fff;
+    color: black;
+    width: 60%;
+    border: none;
+    border-radius: 7px;
+    height: 40px;
+    margin-top: 1em;
+}
+
+.footbt {
+    text-align: center;
+}
+
+.foot a {
+    color: white;
+    font-weight: 600;
+}
+
+.foot a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.servi {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 9px;
+    color: #fff;
+}
+
+.about-text {
+    height: 20em;
+    background-color: rgb(128, 4, 107);
+    border-radius: 10px;
+    padding: 2em;
+    color: #fff;
+}
+
+.button button {
+    width: 80%;
+    background-color: rgb(128, 4, 107);
+    color: #fff;
+    font-size: 17px;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}

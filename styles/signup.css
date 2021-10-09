@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(68, 2, 57);
+}
+
+header {
+    margin-top: 6rem;
+}
+
+.section-contain {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 25px;
+    color: #fff;
+}
+
+.logo:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 850px) {
+    .section-contain {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .section-contain {
+        width: 95%;
+        margin: 0 auto;
+    }
+}

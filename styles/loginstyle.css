@@ -1,0 +1,71 @@
+header {
+    margin-bottom: 5rem;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.logo:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.forg {
+    text-decoration: none;
+    color: black;
+}
+
+.forg:hover {
+    color: rgba(170, 6, 143, 0.678);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.contain {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 70%;
+}
+
+form {
+    width: 40%;
+    margin-right: 2rem;
+}
+
+.h3w {
+    text-align: center;
+    color: rgba(170, 6, 143, 0.678);
+}
+
+.user,
+.pass {
+    color: rgba(170, 6, 143, 0.678);
+    font-weight: 600;
+}
+
+.button {
+    background-color: rgba(170, 6, 143, 0.678);
+    width: 200px;
+    color: white;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+@media screen and (max-width:450px) {
+    .img {
+        display: none;
+    }
+    .contain {
+        display: block;
+    }
+    form {
+        width: 90%;
+    }
+}

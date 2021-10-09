@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp | Page</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/signup.css">
+</head>
+
+<body>
+    <header class="">
+        <nav class="navbar navbar-dark navbar-expand-lg fixed-top" style="background-color: rgb(68, 2, 57);">
+            <a href="index.html" class="logo">Ht-Webhost</a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mr-4"><a href="login.html" class="nav-link" style="color: #fff; font-size: 18px; font-weight: 600;">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="section-contain bg-light rounded">
+        <form action="" class="p-4 ">
+            <h5 class="pb-2">Personal Information</h5>
+            <div class="form-row">
+                <div class="form-group col">
+                    <label for="firstname">First Name</label>
+                    <input type="text" required class="form-control">
+                </div>
+                <div class="form-group col">
+                    <label for="firstname">Last Name</label>
+                    <input type="text" required class="form-control">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col">
+                    <label for="firstname">Email Address</label>
+                    <input type="email" required class="form-control">
+                </div>
+                <div class="form-group col">
+                    <label for="firstname">Phone Number</label>
+                    <input type="text" required class="form-control">
+                </div>
+            </div>
+
+            <h5 class="pb-2">Billing Address</h5>
+            <div class="form-row">
+                <div class="form-group col">
+                    <label for="company">Company Name (optional)</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group col">
+                    <label for="street">Street Address</label>
+                    <input type="text" required class="form-control">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col">
+                    <label for="street2">Street Address 2</label>
+                    <input type="text" required class="form-control">
+                </div>
+                <div class="form-group col">
+                    <label for="city">City</label>
+                    <input type="text" required class="form-control">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-5">
+                    <label for="state">State</label>
+                    <select name="state" id="" class="custom-select">
+                        <option value="">Abia</option>
+                        <option value="">Adamawa</option>
+                        <option value="">Akwa Ibom</option>
+                        <option value="">Anambra</option>
+                        <option value="">Bauchi</option>
+                        <option value="">....</option>
+                    </select>
+                </div>
+                <div class="form-group col-2">
+                    <label for="postal">Postal Code</label>
+                    <input type="text" required class="form-control">
+                </div>
+                <div class="form-group col-5">
+                    <label for="country">Country</label>
+                    <select name="state" id="" class="custom-select">
+                        <option value="">Nigeria</option>
+                    </select>
+                </div>
+            </div>
+
+            <h5 class="pb-2">Additional Required Information</h5>
+            <div class="form-row">
+                <div class="form-group col">
+                    <label for="country" class="text-muted">Where did you hear about us?</label>
+                    <select name="state" id="" class="custom-select">
+                        <option value="">None</option>
+                        <option value="">Google Search</option>
+                        <option value="">Friend</option>
+                        <option value="">Facebook</option>
+                        <option value="">Instagram</option>
+                        <option value="">Twitter</option>
+                        <option value="">LinkedIn</option>
+                        <option value="">Affliate Makerter</option>
+                        <option value="">Others</option>
+                    </select>
+                </div>
+                <div class="form-group col">
+                    <label for="country" class="text-muted">Where did you hear about us?</label>
+                    <select name="state" id="" class="custom-select">
+                        <option value="" selected disabled>   </option>
+                        <option value="">Web Developer</option>
+                        <option value="">Web Designer</option>
+                        <option value="">Business Owner</option>
+                        <option value="">NGOs</option>
+                        <option value="">Individual</option>
+                        <option value="">Others</option>
+                    </select>
+                    <p class="text-muted pl-3">Choose the category best suit to you.</p>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="">
+                        <label class="form-check-label">
+                          Consent to share personal data
+                        </label>
+                        <p class="pl-1 text-muted">By choosing this, you agree that your personal information can be shared</p>
+                    </div>
+                </div>
+                <div class="form-group col">
+                    <label for="" class="text-muted">Security Question</label>
+                    <select name="state" id="" class="custom-select">
+                        <option value="" selected disabled>   </option>
+                        <option value="">What is Your Best Color</option>
+                        <option value="">What is the name of your first pet</option>
+                        <option value="">What is the name of your best friend</option>
+                        <option value="">What is the name of your first child</option>
+                        <option value="">What primary school did you attend</option>
+                        <option value="">What is your mother maiden name</option>
+                    </select>
+                    <p class="text-muted">Choose your security question to enable us verify you when you contact us.</p>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col">
+                    <label for="" class="text-muted">Security Question Answer</label>
+                    <input type="text" class="form-control">
+                    <p class="text-muted">Enter your security answer to enable us verify you when you contact us.</p>
+                </div>
+                <div class="form-group col">
+                    <label for="" class="text-muted">Choose Currency</label>
+                    <select name="" id="" class="custom-select">
+                        <option value="" selected disabled> </option>
+                    <option value="">NGN</option>
+                    <option value="">USD</option>
+                    <option value="">KES</option>
+                    </select>
+                </div>
+            </div>
+
+            <h5 class="pb-2">Account Security</h5>
+            <div class="form-row">
+                <div class="form-group col">
+                    <label for="" class="text-muted">Password</label>
+                    <input type="password" class="form-control">
+                </div>
+                <div class="form-group col">
+                    <label for="" class="text-muted"> Confirm Password</label>
+                    <input type="password" class="form-control">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" required>
+                    <label class="form-check-label">
+                      I agree with the <a href="http://" target="_blank" class="text-decoration-none">terms and conditons</a>
+                    </label>
+                </div>
+                <button class="btn btn-primary btn-block mt-5">Register</button>
+        </form>
+        </div>
+</body>
+
+</html>
